@@ -46,10 +46,8 @@ void main()
     double myKids = 4.0;
     String rainCheck = "No!";
     double gasPrice = 3.99;
-    double favNumber = 3;
+    int favNumber = 3;
     double shoeSize = 10.5;
     int birthMonth = 1;
     String myName = "Trevor Kirtman";
-
-
 }
