@@ -28,7 +28,6 @@ void main()
     doubleDifference = doubleOperandA - doubleOperandB;
     doubleProduct = doubleOperandA * doubleOperandB;
     doubleQuotient = doubleOperandA / doubleOperandB;
-    doubleModulo = doubleOperandA % doubleOperandB;
 
     System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
     System.out.println("The difference using ints of " + intOperandA + " and " + intOperandB + " is " + intDifference);
@@ -40,7 +39,6 @@ void main()
     System.out.println("The difference using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
     System.out.println("The product using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
     System.out.println("The quotient using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
-    System.out.println("The modulo using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
 
     // I know variables are usually declared at the top, but for the sake of homework readability, I am putting them together the output.
 
