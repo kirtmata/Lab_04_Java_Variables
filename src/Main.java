@@ -1,13 +1,57 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+void main()
+{
+    int intOperandA = 1;
+    int intOperandB = 2;
+    int intSum = 3;
+    int intProduct = 5;
+    int intDifference = 8;
+    int intQuotient = 13;
+    int intModulo = 21;
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
-    }
+    double doubleOperandA = 1.0;
+    double doubleOperandB = 2.0;
+    double doubleSum = 3.0;
+    double doubleProduct = 5.0;
+    double doubleDifference = 8.0;
+    double doubleQuotient = 13.0;
+    double doubleModulo = 21.0;
+
+    intSum = intOperandA + intOperandB;
+    intDifference = intOperandA - intOperandB;
+    intProduct = intOperandA * intOperandB;
+    intQuotient = intOperandA / intOperandB;
+    intModulo = intOperandA % intOperandB;
+
+    doubleSum = doubleOperandA + doubleOperandB;
+    doubleDifference = doubleOperandA - doubleOperandB;
+    doubleProduct = doubleOperandA * doubleOperandB;
+    doubleQuotient = doubleOperandA / doubleOperandB;
+    doubleModulo = doubleOperandA % doubleOperandB;
+
+    System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
+    System.out.println("The difference using ints of " + intOperandA + " and " + intOperandB + " is " + intDifference);
+    System.out.println("The product using ints of " + intOperandA + " and " + intOperandB + " is " + intProduct);
+    System.out.println("The quotient using ints of " + intOperandA + " and " + intOperandB + " is " + intQuotient);
+    System.out.println("The modulo using ints of " + intOperandA + " and " + intOperandB + " is " + intModulo);
+    System.out.println(" ");
+    System.out.println("The sum using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
+    System.out.println("The difference using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
+    System.out.println("The product using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
+    System.out.println("The quotient using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
+    System.out.println("The modulo using doubles of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleModulo);
+
+    // I know variables are usually declared at the top, but for the sake of homework readability, I am putting them together the output.
+
+    double myLunchCost = 8.78;
+    double myKids = 4.0;
+    String rainCheck = "No!";
+    double gasPrice = 3.99;
+    double favNumber = 3;
+    double shoeSize = 10.5;
+    int birthMonth = 1;
+    String myName = "Trevor Kirtman";
+
+
 }
