@@ -4,19 +4,18 @@ void main()
 {
     int intOperandA = 1;
     int intOperandB = 2;
-    int intSum = 3;
-    int intProduct = 5;
-    int intDifference = 8;
-    int intQuotient = 13;
-    int intModulo = 21;
+    int intSum;
+    int intProduct;
+    int intDifference;
+    int intQuotient;
+    int intModulo;
 
     double doubleOperandA = 1.0;
     double doubleOperandB = 2.0;
-    double doubleSum = 3.0;
-    double doubleProduct = 5.0;
-    double doubleDifference = 8.0;
-    double doubleQuotient = 13.0;
-    double doubleModulo = 21.0;
+    double doubleSum;
+    double doubleProduct;
+    double doubleDifference;
+    double doubleQuotient;
 
     intSum = intOperandA + intOperandB;
     intDifference = intOperandA - intOperandB;
